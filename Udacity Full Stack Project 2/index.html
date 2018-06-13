@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="description" content="Udacity Responsive Images course project" />
+    <meta name="Shang Wang" content="Shang_Wang.com">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0,  shrink-to-fit=no, user-scalable=yes">
+
+    <title>Udacity Full Stack Project2 Portfolio</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css"/>
+
+  </head>
+
+  <body>
+    <!--A top nav bar here. Actually does nothing now. But who knows what it will do?-->
+    <nav class="navbar navbar-expand-sm bd-sidebar navbar-dark bg-danger">
+      <!--responsive logo here-->
+      <a class="navbar-brand" href="#">
+        <img class="turtle-logo" src="images/Logo2-extra-small-0.5x.png" alt="A turtle logo designed by me.">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link mr-3" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item mr-3">
+            <a class="nav-link text-light" href="https://twitter.com/tomoyanandayo" target="_blank">Link</a>
+          </li>
+          <li class="nav-item dropdown mr-3">
+            <a class="nav-link text-light dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Menu
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Does nothing right now</a>
+              <a class="dropdown-item" href="#">Same</a>　
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Same</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+
+    <!--main container. all elements are included in this container. Fit in bootstrap grid system-->
+    
+    <div class="main">
+      <div class="container-fluid">
+        <div class="row justify-content-center my-3">
+          <header class="col-md-9 mb-lg-5 mb-md-3 mb-sm-1">
+            <div class="container-fluid">
+              <div class="row justify-content-center mb-2">
+
+                <div class="col-sm-6 col-12">
+                  <h1 class="row justify-content-center">
+                    Shang Wang        
+                  </h1>
+                  <h3 class="row justify-content-center">
+                    Front End Ninja
+                  </h3>
+                </div>
+              </div>
+            </div>
+          </header>
+        </div>
+
+        <div class="row">
+          <!--side bar here-->
+          <div class="col-12 col-sm-12 col-md-2 col-lg-3 order-2 order-md-1">
+            <div class="row justify-content-center">
+              <div class="bg-danger col-md-12 col-sm-4 col-12 color-block"> 
+              </div>
+              <h3 class="col-12 text-danger text-center">#dc3545</h3>
+              <div class="bg-secondary col-md-12 col-sm-4 col-12 mt-5 color-block">
+              </div>
+              <h3 class="col-12 text-secondary text-center">#6c757d</h3>
+              <div class="bg-dark col-md-12 col-sm-4 col-12 mt-5 color-block">
+              </div>
+              <h3 class="col-12 text-dark text-center">#343a40</h3>
+            </div>
+          </div>
+          <!--main content including header, main and footer-->
+          <div class="col-12 col-sm-12 col-md-10 col-lg-9 order-1 order-md-2">
+            <!--header mainly display logo, name and position-->
+
+            <!--this is the main content of the page. An image is displayed here right now.-->
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-12">
+                  <div class="media">
+                    <picture>
+                      <source media="(min-width: 1200px)" sizes="80vw" srcset="images/web-tech-employed-medium-1x.jpg 998w">
+                      <source media="(min-width: 998px)" sizes="80vw" srcset="images/web-tech-employed-medium-1x.jpg 998w">
+                      <source media="(min-width: 768px)" sizes="80vw" srcset="images/web-tech-employed-small-1x.jpg 768w">
+                      <source media="(min-width: 576px)" sizes="80vw" srcset="images/web-tech-employed-extra-small-1x.jpg 576w">
+                      <img class="img-fluid main-image" src="images/web-tech-employed-extra-small-1x.jpg" alt="Turtle web-tech-employed designed by me.">             
+                    </picture>
+                  </div>
+                </div>             
+              </div>
+            </div>
+            
+
+            <!--some sub content is displayed here. Mainly include some other images and h. Each image has a p-->
+            <div class="row d-flex align-items-center">
+              <div class="col-12 mt-5">
+                <h1 class="text-center">Featured Work</h1>
+                <p class="text-center">Currently pursuing Udacity FullStack Program Nanodegree. </p>
+              </div>
+
+              <div class="col-12 col-md-4 order-md-1 order-1">
+                <div class="media">
+                  <picture>
+                    <source media="(min-width: 1200px)" sizes="30vw" srcset="images/responsive-design2-small-1x.png 768w">
+                    <source media="(min-width: 998px)" sizes="30vw"  srcset="images/responsive-design2-small-1x.png 768w">
+                    <source media="(min-width: 768px)" sizes="50vw"  srcset="images/responsive-design2-small-1x.png 768w, images/responsive-design2-extra-small-1x.png 576w">
+                    <source media="(min-width: 576px)" sizes="100vw"  srcset="images/responsive-design2-small-1x.png 768w, images/responsive-design2-extra-small-1x.png 576w">
+                    <img class="sub-content img-fluid" src="images/responsive-design2-extra-small-1x.png" alt="Turtle responsive-design2 designed by me.">             
+                  </picture>   
+                </div>        
+              </div>
+
+              <div class="col-12 col-md-4 order-md-2 order-3">
+                <div class="media">
+                  <picture>
+                    <source media="(min-width: 1200px)" sizes="30vw" srcset="images/database-img2-small-1x.png 768w">
+                    <source media="(min-width: 998px)" sizes="30vw"  srcset="images/database-img2-small-1x.png 768w">
+                    <source media="(min-width: 768px)" sizes="50vw"  srcset="images/database-img2-small-1x.png 768w, images/database-img2-extra-small-1x.png 576w">
+                    <source media="(min-width: 576px)" sizes="100vw"  srcset="images/database-img2-small-1x.png 768w, images/database-img2-extra-small-1x.png 576w">
+                    <img class="sub-content img-fluid" src="images/database-img2-extra-small-1x.png" alt="Turtle database-img2 designed by me.">             
+                  </picture>  
+                </div>
+              </div>
+
+              <div class="col-12 col-md-4 order-md-3 order-5">
+                <div class="media">
+                  <picture>
+                    <source media="(min-width: 1200px)" sizes="30vw" srcset="images/python-img1-small-1x.png 768w">
+                    <source media="(min-width: 998px)" sizes="30vw"  srcset="images/python-img1-small-1x.png 768w">
+                    <source media="(min-width: 768px)" sizes="50vw"  srcset="images/python-img1-small-1x.png 768w, images/python-img1-extra-small-1x.png 576w">
+                    <source media="(min-width: 576px)" sizes="100vw"  srcset="images/python-img1-small-1x.png 768w, images/python-img1-extra-small-1x.png 576w">
+                    <img class="sub-content img-fluid" src="images/python-img1-extra-small-1x.png" alt="Turtle python-img1 designed by me.">             
+                  </picture> 
+                </div>            
+              </div>
+
+              <h4 class="col-12 col-md-4 order-md-4 order-2 text-center">
+                <a class="text-dark sub-title" href="https://github.com/wang8zai">Responsive Design</a>
+              </h4>
+ 
+              <h4 class="col-12 col-md-4 order-md-5 order-4 text-center">
+                <a class="text-dark sub-title" href="https://github.com/wang8zai">Database Management System</a>
+              </h4>
+
+              <h4 class="col-12 col-md-4 order-md-6 order-6 text-center">
+                <a class="text-dark sub-title" href="https://github.com/wang8zai">Python</a>
+              </h4>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+    </div>
+
+    <!--Some social media icons are shown here. Jump to other social links possible.-->
+    <footer class="footer bg-danger py-5">
+      <div class="container-fluid">
+
+        <div class="row justify-content-center text-light">
+          <div class="col-2 col-md-2 col-lg-1">
+            <a href="https://github.com/wang8zai" class="zocial-github text-light"></a>
+          </div>
+          <div class="col-2 col-md-2 col-lg-1">
+            <a href="https://www.google.com" class="zocial-google text-light"></a>
+          </div>
+          <div class="col-2 col-md-2 col-lg-1">
+            <a href="https://www.digg.com" class="zocial-digg text-light"></a>
+          </div>
+          <div class="col-2 col-md-2 col-lg-1">
+            <a href="https://www.twitter.com" class="zocial-twitter text-light"></a>
+          </div>
+          <div class="col-2 col-md-2 col-lg-1">
+            <a href="https://www.facebook.com" class="zocial-facebook text-light"></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+
+  </body>
+</html>
