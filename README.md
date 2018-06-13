@@ -1,7 +1,14 @@
 # Udacity FullStack Project2 Responsive Design
 
-##Dependency
+## Dependency
+HTML5
+CSS3
+BootStrap4
+Grunt
 
-##Installtion
+## Installtion
+Clone responsity to local envionment.
+Open index.html on different devices.
 
-##Description
+## Description
+Develop a responsive website that will display images, descriptions and links to each of the portfolio projects.
